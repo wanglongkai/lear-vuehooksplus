@@ -4,6 +4,7 @@
     "source.fixAll.eslint": "always"
   },
   "eslint.validate": ["typescript", "vue", "javascript", "javascriptreact"],
+  "editor.tabSize": 2,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

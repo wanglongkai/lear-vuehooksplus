@@ -3,10 +3,7 @@ import globals from 'globals'
 
 import { globalIgnores } from 'eslint/config'
 
-import {
-  defineConfigWithVueTs,
-  vueTsConfigs,
-} from '@vue/eslint-config-typescript'
+import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
 
 export default defineConfigWithVueTs([
   ...pluginVue.configs['flat/essential'],
@@ -19,7 +16,7 @@ export default defineConfigWithVueTs([
       'no-sparse-arrays': 0,
       'no-inner-declarations': 0,
       'no-constant-condition': 0,
-      'no-unused-vars': 'error',
+      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       'node/no-callback-literal': 'off',
       'import/namespace': 'off',
       'import/default': 'off',
