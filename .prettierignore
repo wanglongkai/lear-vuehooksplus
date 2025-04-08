@@ -1,0 +1,9 @@
+**/*.svg
+package.json
+/dist
+*.png
+.gitignore
+.prettierignore
+*.lock
+/public
+**/node_modules/**
