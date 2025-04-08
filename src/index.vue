@@ -1,7 +1,7 @@
 <template>
-  <UseToggle />
+  <UseSet />
 </template>
 <script lang="ts" setup>
-  import UseToggle from './test/_test_useToggle.vue'
+  import UseSet from './test/_test_useSet.vue'
 </script>
 <style lang="css" scoped></style>
